@@ -41,7 +41,7 @@ while count < 50:
             pointer.penup()
             pointer.goto(x_value, y_value)
             pointer.write(arg=f"{value}", align="center", font=('Arial', 10, 'normal'))
-            count -= 1
+            count += 1
             break
 
 screen.exitonclick()
